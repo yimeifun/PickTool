@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:description="@string/widget_description"
+    android:initialLayout="@layout/pickup_widget"
+    android:minHeight="64dp"
+    android:minWidth="180dp"
+    android:minResizeWidth="120dp"
+    android:minResizeHeight="64dp"
+    android:previewLayout="@layout/pickup_widget"
+    android:resizeMode="horizontal|vertical"
+    android:updatePeriodMillis="0"
+    android:widgetCategory="home_screen"
+    tools:targetApi="31" />

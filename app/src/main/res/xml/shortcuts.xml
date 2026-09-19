@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:targetApi="25">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_pinduoduo"
+        android:shortcutId="pdd_id"
+        android:shortcutLongLabel="@string/shortcut_pdd_id"
+        android:shortcutShortLabel="@string/shortcut_pdd_id">
+        <intent
+            android:action="cn.pickup.launcher.OPEN_PINDUODUO"
+            android:targetClass="cn.pickup.launcher.MainActivity"
+            android:targetPackage="cn.pickup.launcher" />
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_taobao"
+        android:shortcutId="tb_id"
+        android:shortcutLongLabel="@string/shortcut_tb_id"
+        android:shortcutShortLabel="@string/shortcut_tb_id">
+        <intent
+            android:action="cn.pickup.launcher.OPEN_TAOBAO"
+            android:targetClass="cn.pickup.launcher.MainActivity"
+            android:targetPackage="cn.pickup.launcher" />
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_pinduoduo_pending"
+        android:shortcutId="pdd_code"
+        android:shortcutLongLabel="@string/shortcut_pdd_code"
+        android:shortcutShortLabel="@string/shortcut_pdd_code">
+        <intent
+            android:action="cn.pickup.launcher.OPEN_PINDUODUO_PENDING"
+            android:targetClass="cn.pickup.launcher.MainActivity"
+            android:targetPackage="cn.pickup.launcher" />
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_taobao_pending"
+        android:shortcutId="tb_code"
+        android:shortcutLongLabel="@string/shortcut_tb_code"
+        android:shortcutShortLabel="@string/shortcut_tb_code">
+        <intent
+            android:action="cn.pickup.launcher.OPEN_TAOBAO_PENDING"
+            android:targetClass="cn.pickup.launcher.MainActivity"
+            android:targetPackage="cn.pickup.launcher" />
+    </shortcut>
+</shortcuts>

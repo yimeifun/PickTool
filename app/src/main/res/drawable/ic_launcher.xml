@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 取件助手 · 图标 J2（优化）：浅紫渐变底 + 白色圆角快递箱 + 左下圆点 + 右下取件码卡（无勾）
+     修复：右下卡加圆角、与左下点统一内缩离边 ~7px，不再贴破圆角底 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 浅紫渐变圆角底 -->
+    <path android:pathData="M24,0h60c13.2,0 24,10.8 24,24v60c0,13.2 -10.8,24 -24,24h-60c-13.2,0 -24,-10.8 -24,-24v-60c0,-13.2 10.8,-24 24,-24z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="108"
+                android:endX="108"
+                android:endY="0"
+                android:type="linear">
+                <item android:offset="0" android:color="#E4ECFF" />
+                <item android:offset="1" android:color="#EEF2FF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- 白色圆角快递箱体 -->
+    <path
+        android:pathData="M38,29h44a12,12 0 0 1 12,12v30a12,12 0 0 1 -12,12h-44a12,12 0 0 1 -12,-12v-30a12,12 0 0 1 12,-12z"
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#C0CDF5"
+        android:strokeWidth="2.5" />
+
+    <!-- 箱盖（略宽，叠在箱体顶缘） -->
+    <path
+        android:pathData="M21,21h50a5,5 0 0 1 5,5v3a5,5 0 0 1 -5,5h-50a5,5 0 0 1 -5,-5v-3a5,5 0 0 1 5,-5z"
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#C0CDF5"
+        android:strokeWidth="2.5" />
+
+    <!-- 取件码横线 x2（箱体上） -->
+    <path android:pathData="M31,43h46v3.6h-46z" android:fillColor="#B9C6F0" />
+    <path android:pathData="M31,55h46v3.6h-46z" android:fillColor="#A9BBEC" />
+
+    <!-- 左下小圆点（内缩，离边 ~7px） -->
+    <path
+        android:pathData="M14,87a7,7 0 1 1 0,14a7,7 0 1 1 0,-14z"
+        android:fillColor="#C7D2F8" />
+
+    <!-- 右下取件码小卡（圆角 5，内缩，离边 ~7px） -->
+    <path
+        android:pathData="M78,82h19a5,5 0 0 1 5,5v9a5,5 0 0 1 -5,5h-19a5,5 0 0 1 -5,-5v-9a5,5 0 0 1 5,-5z"
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#C0CDF5"
+        android:strokeWidth="1.5" />
+
+    <!-- 卡内两横条 -->
+    <path android:pathData="M82,86h16v3h-16z" android:fillColor="#8A9BF2" />
+    <path android:pathData="M85,91h10v3h-10z" android:fillColor="#8A9BF2" />
+</vector>
