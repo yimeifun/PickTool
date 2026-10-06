@@ -14,6 +14,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "PickupCodeLauncher"
+rootProject.name = "PickupAssistant"
 include(":app")
 

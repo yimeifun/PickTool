@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- API 26 起支持深色导航栏图标，导航栏可以跟随背景一起透明。 -->
+    <style name="AppTheme" parent="AppThemeBase">
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+</resources>

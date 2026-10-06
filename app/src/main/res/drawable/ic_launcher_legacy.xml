@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- API 23-25 的兜底启动图标（这些版本不支持自适应图标）。
+     完整绘制 108x108 无内缩，圆角矩形 + 叠层卡片，与自适应图标视觉一致。 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <path android:pathData="M20,0 H88 A20,20 0 0 1 108,20 V88 A20,20 0 0 1 88,108 H20 A20,20 0 0 1 0,88 V20 A20,20 0 0 1 20,0 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="16"
+                android:startY="0"
+                android:endX="38"
+                android:endY="108">
+                <item android:offset="0" android:color="#E6EAFD" />
+                <item android:offset="1" android:color="#CDD6F8" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <group android:translateY="1.4">
+        <path
+            android:fillColor="#2E7A8FD4"
+            android:pathData="M38,30.8 H49.2 A6.4,6.4 0 0 1 55.6,37.2 V39.6 A6.4,6.4 0 0 1 49.2,46 H38 A6.4,6.4 0 0 1 31.6,39.6 V37.2 A6.4,6.4 0 0 1 38,30.8 Z" />
+        <path
+            android:fillColor="#2E7A8FD4"
+            android:pathData="M38.8,37.2 H62.8 A7.2,7.2 0 0 1 70,44.4 V64.4 A7.2,7.2 0 0 1 62.8,71.6 H38.8 A7.2,7.2 0 0 1 31.6,64.4 V44.4 A7.2,7.2 0 0 1 38.8,37.2 Z" />
+        <path
+            android:fillColor="#2E7A8FD4"
+            android:pathData="M59.6,58.8 H70.8 A5.6,5.6 0 0 1 76.4,64.4 V71.6 A5.6,5.6 0 0 1 70.8,77.2 H59.6 A5.6,5.6 0 0 1 54,71.6 V64.4 A5.6,5.6 0 0 1 59.6,58.8 Z" />
+    </group>
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38.8,37.2 H62.8 A7.2,7.2 0 0 1 70,44.4 V64.4 A7.2,7.2 0 0 1 62.8,71.6 H38.8 A7.2,7.2 0 0 1 31.6,64.4 V44.4 A7.2,7.2 0 0 1 38.8,37.2 Z"
+        android:strokeColor="#C3CEFA"
+        android:strokeWidth="1.8" />
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,30.8 H49.2 A6.4,6.4 0 0 1 55.6,37.2 V39.6 A6.4,6.4 0 0 1 49.2,46 H38 A6.4,6.4 0 0 1 31.6,39.6 V37.2 A6.4,6.4 0 0 1 38,30.8 Z"
+        android:strokeColor="#C3CEFA"
+        android:strokeWidth="1.8" />
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M59.6,58.8 H70.8 A5.6,5.6 0 0 1 76.4,64.4 V71.6 A5.6,5.6 0 0 1 70.8,77.2 H59.6 A5.6,5.6 0 0 1 54,71.6 V64.4 A5.6,5.6 0 0 1 59.6,58.8 Z"
+        android:strokeColor="#C3CEFA"
+        android:strokeWidth="1.8" />
+
+    <path
+        android:pathData="M41.2,50.8 H60.4"
+        android:strokeColor="#C3CEFA"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M41.2,58.8 H60.4"
+        android:strokeColor="#C3CEFA"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M60.2,66.6 H69.4"
+        android:strokeColor="#C3CEFA"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M60.2,72.2 H65.4"
+        android:strokeColor="#C3CEFA"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round" />
+</vector>

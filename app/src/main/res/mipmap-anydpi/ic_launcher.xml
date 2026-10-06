@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- API 23-25 兜底：这些版本不支持自适应图标，回退到预合成的矢量图标。
+     API 26+ 会优先使用 mipmap-anydpi-v26 下的自适应图标。 -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_launcher_legacy" />
+</layer-list>

@@ -5,46 +5,79 @@
     tools:targetApi="25">
     <shortcut
         android:enabled="true"
-        android:icon="@drawable/ic_shortcut_pinduoduo"
-        android:shortcutId="pdd_id"
-        android:shortcutLongLabel="@string/shortcut_pdd_id"
-        android:shortcutShortLabel="@string/shortcut_pdd_id">
+        android:icon="@drawable/ic_shortcut_cainiao"
+        android:shortcutId="cainiao"
+        android:shortcutLongLabel="@string/shortcut_cainiao"
+        android:shortcutShortLabel="@string/shortcut_cainiao">
         <intent
-            android:action="cn.pickup.launcher.OPEN_PINDUODUO"
-            android:targetClass="cn.pickup.launcher.MainActivity"
-            android:targetPackage="cn.pickup.launcher" />
+            android:action="com.pickup.tool.OPEN_CAINIAO"
+            android:targetClass="com.pickup.tool.MainActivity"
+            android:targetPackage="com.pickup.tool" />
     </shortcut>
     <shortcut
         android:enabled="true"
         android:icon="@drawable/ic_shortcut_taobao"
-        android:shortcutId="tb_id"
-        android:shortcutLongLabel="@string/shortcut_tb_id"
-        android:shortcutShortLabel="@string/shortcut_tb_id">
+        android:shortcutId="taobao"
+        android:shortcutLongLabel="@string/shortcut_taobao"
+        android:shortcutShortLabel="@string/shortcut_taobao">
         <intent
-            android:action="cn.pickup.launcher.OPEN_TAOBAO"
-            android:targetClass="cn.pickup.launcher.MainActivity"
-            android:targetPackage="cn.pickup.launcher" />
+            android:action="com.pickup.tool.OPEN_TAOBAO"
+            android:targetClass="com.pickup.tool.MainActivity"
+            android:targetPackage="com.pickup.tool" />
     </shortcut>
     <shortcut
         android:enabled="true"
-        android:icon="@drawable/ic_shortcut_pinduoduo_pending"
-        android:shortcutId="pdd_code"
-        android:shortcutLongLabel="@string/shortcut_pdd_code"
-        android:shortcutShortLabel="@string/shortcut_pdd_code">
+        android:icon="@drawable/ic_shortcut_pinduoduo"
+        android:shortcutId="pinduoduo"
+        android:shortcutLongLabel="@string/shortcut_pinduoduo"
+        android:shortcutShortLabel="@string/shortcut_pinduoduo">
         <intent
-            android:action="cn.pickup.launcher.OPEN_PINDUODUO_PENDING"
-            android:targetClass="cn.pickup.launcher.MainActivity"
-            android:targetPackage="cn.pickup.launcher" />
+            android:action="com.pickup.tool.OPEN_PINDUODUO"
+            android:targetClass="com.pickup.tool.MainActivity"
+            android:targetPackage="com.pickup.tool" />
     </shortcut>
     <shortcut
         android:enabled="true"
-        android:icon="@drawable/ic_shortcut_taobao_pending"
-        android:shortcutId="tb_code"
-        android:shortcutLongLabel="@string/shortcut_tb_code"
-        android:shortcutShortLabel="@string/shortcut_tb_code">
+        android:icon="@drawable/ic_shortcut_jd"
+        android:shortcutId="jd"
+        android:shortcutLongLabel="@string/shortcut_jd"
+        android:shortcutShortLabel="@string/shortcut_jd">
         <intent
-            android:action="cn.pickup.launcher.OPEN_TAOBAO_PENDING"
-            android:targetClass="cn.pickup.launcher.MainActivity"
-            android:targetPackage="cn.pickup.launcher" />
+            android:action="com.pickup.tool.OPEN_JD"
+            android:targetClass="com.pickup.tool.MainActivity"
+            android:targetPackage="com.pickup.tool" />
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_xhs"
+        android:shortcutId="xhs"
+        android:shortcutLongLabel="@string/shortcut_xhs"
+        android:shortcutShortLabel="@string/shortcut_xhs">
+        <intent
+            android:action="com.pickup.tool.OPEN_XHS"
+            android:targetClass="com.pickup.tool.MainActivity"
+            android:targetPackage="com.pickup.tool" />
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_taobao"
+        android:shortcutId="taobao_pending"
+        android:shortcutLongLabel="@string/shortcut_taobao_pending"
+        android:shortcutShortLabel="@string/shortcut_taobao_pending">
+        <intent
+            android:action="com.pickup.tool.OPEN_TAOBAO_PENDING"
+            android:targetClass="com.pickup.tool.MainActivity"
+            android:targetPackage="com.pickup.tool" />
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_pinduoduo"
+        android:shortcutId="pinduoduo_pending"
+        android:shortcutLongLabel="@string/shortcut_pinduoduo_pending"
+        android:shortcutShortLabel="@string/shortcut_pinduoduo_pending">
+        <intent
+            android:action="com.pickup.tool.OPEN_PINDUODUO_PENDING"
+            android:targetClass="com.pickup.tool.MainActivity"
+            android:targetPackage="com.pickup.tool" />
     </shortcut>
 </shortcuts>

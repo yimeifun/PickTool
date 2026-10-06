@@ -19,8 +19,4 @@
     <string name="shortcut_xhs">小红书待取快递</string>
     <string name="widget_xhs">小红书</string>
     <string name="open_xhs">打开小红书待取快递</string>
-    <string name="shortcut_pdd_id">拼多多身份码</string>
-    <string name="shortcut_tb_id">淘宝身份码</string>
-    <string name="shortcut_pdd_code">拼多多取件码</string>
-    <string name="shortcut_tb_code">淘宝取件码</string>
 </resources>

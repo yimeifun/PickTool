@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- 主题在代码里动态切换（ThemeManager），但需要一个基主题；
-         状态栏透明由 MainActivity 在 onCreate 里 setStatusBarColor(Color.TRANSPARENT) 实现。
-         不在 XML 里写 windowLightStatusBar / navigationBarColor，避免被覆盖。 -->
     <style name="AppThemeBase" parent="@android:style/Theme.Material.Light.NoActionBar">
-        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:fontFamily">sans</item>
         <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowBackground">#FBF4EE</item>
+        <!-- API 26 以下不支持深色导航栏图标，这里保持深色导航栏配白色图标。 -->
+        <item name="android:navigationBarColor">#231A15</item>
+        <item name="android:colorAccent">#231A15</item>
         <item name="android:windowNoTitle">true</item>
-        <item name="android:colorAccent">#1B1D1B</item>
     </style>
 
     <style name="AppTheme" parent="AppThemeBase" />

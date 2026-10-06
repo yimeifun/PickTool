@@ -11,15 +11,16 @@ plugins {
 }
 
 android {
-    namespace = "cn.pickup.launcher"
+    namespace = "com.pickup.tool"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "cn.pickup.launcher"
+        applicationId = "com.pickup.tool"
         minSdk = 23
         targetSdk = 35
-        versionCode = 7
-        versionName = "1.0.0"
+        // 包名与旧工程不同，属于全新应用，版本号重新起算。
+        versionCode = 210
+        versionName = "2.1.0"
     }
 
     if (signingPropertiesFile.exists()) {

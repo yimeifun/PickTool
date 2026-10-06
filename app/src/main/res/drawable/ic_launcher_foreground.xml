@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 自适应图标前景层：叠层卡片。
+     内容收在 108x108 画布中央的 66x66 安全区内（约 x 31..77 / y 30..78），
+     圆形、方形、水滴形遮罩下都不会被切掉。
+     VectorDrawable 不支持高斯阴影，这里用向下偏移的半透明副本模拟层叠投影。 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <group android:translateY="1.4">
+        <path
+            android:fillColor="#2E7A8FD4"
+            android:pathData="M38,30.8 H49.2 A6.4,6.4 0 0 1 55.6,37.2 V39.6 A6.4,6.4 0 0 1 49.2,46 H38 A6.4,6.4 0 0 1 31.6,39.6 V37.2 A6.4,6.4 0 0 1 38,30.8 Z" />
+        <path
+            android:fillColor="#2E7A8FD4"
+            android:pathData="M38.8,37.2 H62.8 A7.2,7.2 0 0 1 70,44.4 V64.4 A7.2,7.2 0 0 1 62.8,71.6 H38.8 A7.2,7.2 0 0 1 31.6,64.4 V44.4 A7.2,7.2 0 0 1 38.8,37.2 Z" />
+        <path
+            android:fillColor="#2E7A8FD4"
+            android:pathData="M59.6,58.8 H70.8 A5.6,5.6 0 0 1 76.4,64.4 V71.6 A5.6,5.6 0 0 1 70.8,77.2 H59.6 A5.6,5.6 0 0 1 54,71.6 V64.4 A5.6,5.6 0 0 1 59.6,58.8 Z" />
+    </group>
+
+    <!-- 主卡片 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38.8,37.2 H62.8 A7.2,7.2 0 0 1 70,44.4 V64.4 A7.2,7.2 0 0 1 62.8,71.6 H38.8 A7.2,7.2 0 0 1 31.6,64.4 V44.4 A7.2,7.2 0 0 1 38.8,37.2 Z"
+        android:strokeColor="#C3CEFA"
+        android:strokeWidth="1.8" />
+
+    <!-- 顶部标签 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,30.8 H49.2 A6.4,6.4 0 0 1 55.6,37.2 V39.6 A6.4,6.4 0 0 1 49.2,46 H38 A6.4,6.4 0 0 1 31.6,39.6 V37.2 A6.4,6.4 0 0 1 38,30.8 Z"
+        android:strokeColor="#C3CEFA"
+        android:strokeWidth="1.8" />
+
+    <!-- 右下小卡片 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M59.6,58.8 H70.8 A5.6,5.6 0 0 1 76.4,64.4 V71.6 A5.6,5.6 0 0 1 70.8,77.2 H59.6 A5.6,5.6 0 0 1 54,71.6 V64.4 A5.6,5.6 0 0 1 59.6,58.8 Z"
+        android:strokeColor="#C3CEFA"
+        android:strokeWidth="1.8" />
+
+    <!-- 取件信息占位横线 -->
+    <path
+        android:pathData="M41.2,50.8 H60.4"
+        android:strokeColor="#C3CEFA"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M41.2,58.8 H60.4"
+        android:strokeColor="#C3CEFA"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round" />
+
+    <!-- 小卡片上的两行短横线 -->
+    <path
+        android:pathData="M60.2,66.6 H69.4"
+        android:strokeColor="#C3CEFA"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M60.2,72.2 H65.4"
+        android:strokeColor="#C3CEFA"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round" />
+</vector>
